@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMULIR </title>
+</head>
+<body>
+    <form action="/path">
+    </form>
+        <fieldset>
+            <legend> Formulir Calon Pegawai</legend>
+            <label for="name">Nama :  </label>
+            <input type="text"name="name"/> <br> <br>
+
+            <label for="address">Address :</label>
+            <input type="text"name="address/"> <br><br>
+
+            <label for="password">Password :</label>
+            <input type="password"name="password"/><br> <br>
+
+            <label for="jk"> Jenis Kelamin : </label>
+
+            <input type="radio"name="jk" value="Laki-Laki" checked/>
+            <label for="jk"> Laki-Laki </label>
+
+            <input type="radio"name="jk" value="Perempuan"/>
+            <label for="jk">Perempuan</label> <br> <br>
+
+            <label for="BP">Bahasa Pemrograman yang dikuasai : </label>
+            <input type="checkbox"name="BP" value="Web">
+            <label for="BP">Web</label>
+
+            <input type="checkbox"name="BP" value="MOBILE">
+            <label for="BP">MOBILE</label>
+
+            <input type="checkbox"name="BP" value="DESKTOP">
+            <label for="BP">DESKTOP</label> <br> <br>
+
+            <label for="KotaAsal"> Kota Asal : </label>
+            <select> 
+                <option value="Semarang"> Semarang</option>
+                <option value="Manado">Manado</option>
+                <option value="Jakarta">Jakarta</option>
+            </select> <br> <br>
+
+            <label for="KolomJawaban">Apa yang Membuat Kami harus memilih Anda?:</label><br>
+            <textarea cols="50" rows="10">Tulis jawaban anda di sini</textarea><br> <br>
+
+            <button>proses</button>
+        </fieldset>
+    </form>
+</body>
+</html>
