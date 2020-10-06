@@ -1,0 +1,15 @@
+img {
+    display: block;
+    background-color: lightblue;
+    padding: 20px;
+    border: 10px solid red;
+}
+.img1 {
+    margin-top:20px;
+}
+.img2 {
+    margin-left:180px;
+}
+.img3 {
+    margin-left: 360px;
+}
