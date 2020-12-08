@@ -1,0 +1,39 @@
+
+div.up {
+    width: 100%;
+    height: 3.5rem;
+    background : url(https://i.pinimg.com/originals/34/7a/36/347a36e199f2e7372a5d3cea2848422f.jpg);
+    font-size: 2rem;
+    position: fixed;
+    opacity: .9;
+    right: 0px;
+    top: 0px;
+    font-size: 2rem;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(240, 174, 151);
+}
+div.top {
+    width: 5%;
+    height:100%;
+    background-color: cornsilk;
+    font-size: 2rem;
+    position: fixed;
+    opacity: .9;
+    right: 0px;
+    top: 0px;
+}
+body {
+    background: url(https://papers.co/desktop/wp-content/uploads/papers.co-sm07-pink-blue-soft-pastel-blur-gradation-29-wallpaper.jpg);
+}
+
+.test{
+    top: 40%;
+}
+
+.test2 {
+    background-color: lightblue;
+}
+
+
+
+
