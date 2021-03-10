@@ -70,3 +70,33 @@ let hasil =berat/(tinggi*tinggi);
 console.log("Berat Anda adalah " +berat);
 console.log("Tinggi Anda adalah "+tinggi);
 console.log("Hasil BMI Anda adalah : "+hasil);
+
+function kategoriBMI (){
+    if (hasil < 18.5) {
+        console.log("Classification : Underweight");
+        console.log("Risk of comorbidities : Low (but risk of other clinical problems incresed)");
+    }
+    else if (hasil >= 18.5 && hasil <=24.9) {
+        console.log("Classification : Normalweight");
+        console.log("Risk of comorbidities : Averagae");
+    }
+    else if (hasil >=25.0 && hasil <=29.9) {
+        console.log("Classification : Overweight");
+        console.log("Risk of comorbidities : Mildly increase");
+    }
+
+    else if (hasil >= 30.0 && hasil <=34.9) {
+        console.log("Classification : Class I");
+        console.log("Risk of comorbidities : Moderete");
+    }
+    else if (hasil >= 35.05 && hasil <=34.9) {
+        console.log("Classification : Class II");
+        console.log("Risk of comorbidities : Severe");
+    }
+    else {
+        console.log("Classification : Class III");
+        console.log("Risk of comorbidities : Very Severe");
+    }
+}
+
+kategori55BMI ();
